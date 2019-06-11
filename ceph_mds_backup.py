@@ -4,7 +4,7 @@ import time
 from  executor import execute
 
 time_fmt=time.strftime('%Y%m%d%H%M%S')
-backup_dest='/cephdata/mds/'
+backup_dest='/backup/ceph/mds/'
 file_name='mds_backup_'+str(time_fmt)
 cmd="cephfs-journal-tool --rank=cephfs:0 journal export "+backup_dest+file_name
 

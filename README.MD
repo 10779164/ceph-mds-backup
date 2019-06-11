@@ -1,4 +1,4 @@
 # ceph mds backup
 
 ## Create backup directory
-    # mkdir -p /cephdata/mds
+    # mkdir -p /backup/ceph/mds/
