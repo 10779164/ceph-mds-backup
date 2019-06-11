@@ -9,3 +9,6 @@
 ## Add crontab
     # crontab -e
 #### 0 23 * * * /usr/bin/python /root/ceph/ceph-mds-backup/ceph_mds_backup.py
+
+## Install module executor if need
+    # pip install executor
