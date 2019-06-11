@@ -4,6 +4,7 @@
     # mkdir -p /backup/ceph/mds/
 
 ## Clone backup code
+    # cd /root/ceph
     # git clone https://github.com/10779164/ceph-mds-backup.git
     
 ## Add crontab
